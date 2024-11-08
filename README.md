@@ -4,10 +4,8 @@
 ![alt](images/planck_to_einstein.gif)
 ## Installation
 
-    conda create -y -n TextDeformer python=3.9
+    conda env create -f environment.yml
     conda activate TextDeformer
-    pip3 install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu113
-    conda install -y -c conda-forge igl
     pip install -r requirements.txt
 
 ## Usage

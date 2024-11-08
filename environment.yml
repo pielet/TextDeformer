@@ -1,0 +1,12 @@
+name: TextDeformer
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - igl
+  - pytorch 
+  - torchvision 
+  - pytorch-cuda=12.4
